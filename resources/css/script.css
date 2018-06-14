@@ -231,13 +231,13 @@ footer p {
 }
 .pic
 {
+    
    width: 100%;
     height: 200px;
     top:0;
     left:0;
     z-index: 2;
-
-    
+   
 }
 
 .pic img{
@@ -253,25 +253,30 @@ footer p {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-   
+    z-index: 3;
     display: flex;
     margin: 0;
     padding: 0;
 }
+.team-content .name{
+    text-decoration: none;  
 
+}
+.title{
+    color: darkslategrey;}
 .social i{
     position: relative;
     display: block;
-    width: 40px;
-    height: 40px;
-    
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
     text-align: center;
-    background: #fff;
+/*    background: #fff;*/
     color: #262626;
     margin: 0 5px;
     border-radius: 50%;
-    transition:0.5s;
-    transform:translateY(px);
+    transition-duration: 0.5s;
+    transform:translateY(200px);
     
 }
 
