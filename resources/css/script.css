@@ -72,8 +72,8 @@ header{
 }
 
 .logo{
-    height: 95px;
-    width: 139px;
+    height: 80px;
+    width: auto;
     margin-left: 0px;
     float: left;
     margin-top: 15px;
@@ -217,79 +217,43 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-.container{
-    background: url(img/berries-blackberries-blueberries-87818.jpg);
+
+.Blogger-1 img{
+    width: 100%;
 
 }
-.out-team{
-    background: white;
+.Blogger-1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
     text-align: center;
-    overflow:hidden;
-    position: relative;
-    margin-bottom: 20px;
-    margin-top: 50px;
+   display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
-.pic
-{
-    
-   width: 100%;
-    height: 200px;
-    top:0;
-    left:0;
-    z-index: 2;
-   
-}
-
-.pic img{
-    transition: 0.5s;
-}
-
-.out-team:hover .pic img{
-    opacity: 0.5;
-}
-
-.social{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 3;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-.team-content .name{
-    text-decoration: none;  
-
+.Insta{
+    font-size: 40px;
+    color: #f36148;
+     text-decoration: none;
 }
 .title{
-    color: darkslategrey;}
-.social i{
-    position: relative;
-    display: block;
-    width: 50px;
-    height: 50px;
-    font-size: 50px;
+    color: grey;
+    font-size: 18px;
+}
+button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #c9478d;
     text-align: center;
-/*    background: #fff;*/
-    color: #262626;
-    margin: 0 5px;
-    border-radius: 50%;
-    transition-duration: 0.5s;
-    transform:translateY(200px);
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
     
 }
 
-.out-team:hover .social i{
-    transform: translateY(0px);
-    opacity: 1;
-}
-.out-team .social i .fa{
-    transition: 0.5s;
-    font-size: 24px;
-    line-height: 50px;
-}
-.out-team .social i:hover .fa
-{
-    transform: rotate(360deg);
+button:hover, a:hover{
+    opacity: 0.7;
 }
