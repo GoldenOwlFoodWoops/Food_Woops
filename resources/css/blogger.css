@@ -1,0 +1,164 @@
+/*----section---*/
+
+section{
+    padding: 0;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: cursive;
+    font-variant: oldstyle-nums;
+    padding: 50px;
+}
+
+.blog{
+      font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/*--------Blooger bar with picture and social accounts---------------*/
+
+.blogger{
+ background-image: url(img/blackberries-blur-bowl-240710.jpg);
+ background-size: 504px 300px;
+ min-height: 300px;
+ /*background: #142044; */  
+ margin: 0 auto;
+ display: flex;
+ -webkit-align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/*----------------display the image of blogger----------------------*/
+
+.blogger-profile{
+    display: contents;
+}
+
+.blogger-profile img{
+  border-radius: 50%;
+    height: 180px;
+    display: inline-block;
+    padding: 2vw;
+    box-sizing: content-box;
+}
+
+/*-----------------------bar for social accounts--------------------*/
+
+.blogger-bar{
+    color: #D8E2DC;
+  /*margin-top: 20px;*/
+  transition: all 0.5s ease;
+    float: left;
+}
+}
+.blogger-bar:last-child
+{
+float: right;
+}
+
+.blogger-bar ul li{
+
+    margin: 0 5px 5px 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+     border: 5px solid #D8E2DC;
+     transition: all 0.5s ease;
+    
+}
+.blogger-bar a{
+    color: #D8E2DC;
+}
+
+
+.blogger-social-links-left {
+  text-decoration: none;
+    list-style: none;
+    border: 0;
+
+}
+
+.blogger-social-links-right {
+  text-decoration: none;
+    list-style: none;
+    border: 0;
+    
+}
+.blogger-social-links-left li{
+    float:left;
+}
+
+.blogger-social-links-right li{
+    float: right;
+}
+
+.blogger-bar i {
+    width: 2.6vw;
+    padding: 15px;
+    box-sizing: content-box;
+    font-size: 3vw;
+}
+
+/*------------------------Hover effects----------*/
+
+/*--FACEBOOK--*/
+.blogger-bar ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.blogger-bar ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+/*--TWITTER--*/
+
+.blogger-bar ul li:hover.twitter{
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.blogger-bar ul li:hover .fa-twitter{
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+/*--INSTAGRAM--*/
+
+.blogger-bar ul li:hover.instagram {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+.blogger-bar ul li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+/*--GOGGLE+--*/
+
+.blogger-bar ul li:hover.goggle {
+  border: 5px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+.blogger-bar ul li:hover .fa-google-plus {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
